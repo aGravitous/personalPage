@@ -1,18 +1,21 @@
 .container {
-    background-color: aquamarine
+    background-color: rgb(129, 149, 209);
 }
-a:link a:visited {
+a {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    padding: 20px 15px;
+    padding: 10px;
+    margin: 20px 15px;
+    border: 8px solid black;
+    background-color: rgb(132, 201, 132);
 }
-a:hover {
+a :hover {
     background-color: aqua;
 }
 #placeholder {
-    font-size: 200px;
-    margin: auto;
+    font-size: 120px;
+    margin: 100px;
     color: indigo;
 }
 .footer {
