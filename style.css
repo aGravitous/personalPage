@@ -42,7 +42,15 @@ a:hover {
 }
 #bongoCat{
     font-family: 'Monoton', cursive;
-    color: rgb(216, 37, 37)
+    color: rgb(216, 37, 37);
+    margin-left: 100px;
+}
+iframe {
+    margin-left: 100px;
+}
+#about_photo {
+    border: 5px solid black;
+    margin: 20px;
 }
 #fontHolder{
     font-family: 'Nunito Sans', sans-serif;
