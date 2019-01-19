@@ -48,7 +48,7 @@ a:hover {
 iframe {
     margin-left: 100px;
 }
-#about_photo {
+.photos {
     border: 5px solid black;
     margin: 20px;
 }
