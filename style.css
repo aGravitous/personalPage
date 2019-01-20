@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 .container {
-    background-color: rgb(129, 149, 209);
-    color: black;
+    background-color: rgb(39, 49, 187);
+    color: white;
     font-family: 'Questrial', sans-serif;
 }
 a, a:visited {
@@ -13,8 +13,9 @@ a, a:visited {
     padding: 10px;
     margin: 20px 15px;
     border: 2px solid black;
-    background-color: rgb(132, 201, 132);
-    border-radius: 17px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
 }
 a:hover {
     background-color: aqua;
@@ -33,8 +34,11 @@ a:hover {
 .footer {
     font-size: 15px;
     background-color: gray;
-    padding: 10px 20px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
 }
 #about_text{
     width: 600px;
@@ -49,7 +53,7 @@ iframe {
     margin-left: 100px;
 }
 .photos {
-    border: 5px solid black;
+    border: 2px solid black;
     margin: 20px;
 }
 #fontHolder{
