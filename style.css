@@ -23,7 +23,8 @@ a:hover {
 #placeholder {
     font-size: 120px;
     margin: 100px;
-    color: indigo;
+    color: white;
+    text-align: center;
 }
 .flex-container {
     display: flex;
@@ -39,10 +40,13 @@ a:hover {
     bottom: 0;
     width: 100%;
     height: 30px;
+    padding-top: 5px;
 }
-#about_text{
-    width: 600px;
+.usual_text{
+    margin: 50px auto;
     border: 2px black;
+    width: 600px;
+    line-height: 1.5;
 }
 #bongoCat{
     font-family: 'Monoton', cursive;
@@ -58,4 +62,13 @@ iframe {
 }
 #fontHolder{
     font-family: 'Nunito Sans', sans-serif;
+}
+.table {
+    border: solid black;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+}
+th {
+    font-size: 35;
 }
