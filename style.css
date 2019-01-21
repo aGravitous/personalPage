@@ -48,13 +48,10 @@ a:hover {
     width: 600px;
     line-height: 1.5;
 }
-#bongoCat{
+#bongoCat {
     font-family: 'Monoton', cursive;
     color: rgb(216, 37, 37);
-    margin-left: 100px;
-}
-iframe {
-    margin-left: 100px;
+    margin-left: 450px;
 }
 .photos {
     border: 2px solid black;
