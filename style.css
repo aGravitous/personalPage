@@ -21,6 +21,8 @@ a, a:visited {
     background-color: gray;
     border-radius: 5px;
     color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 a:hover {
     background-color: aqua;
