@@ -3,6 +3,7 @@
 }
 html {
     background-image: linear-gradient(to bottom right, rgb(39, 49, 187), rgb(90, 142, 209));
+    height: 100%;
 }
 p {
     text-align: center;
