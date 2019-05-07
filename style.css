@@ -1,17 +1,25 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    position: relative;
+}
+
 html {
     background-image: linear-gradient(to bottom right, rgb(39, 49, 187), rgb(90, 142, 209));
     height: 100%;
 }
+
 p {
     text-align: center;
 }
+
 .container {
     color: white;
     font-family: 'Questrial', sans-serif;
 }
+
 a, a:visited {
     font-size: 20px;
     text-align: center;
@@ -25,52 +33,61 @@ a, a:visited {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+
 a:hover {
     background-color: aqua;
 }
+
 #placeholder {
     font-size: 120px;
     margin: 100px;
     color: white;
     text-align: center;
 }
+
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
+
 .footer {
     font-size: 15px;
     background-color: gray;
     text-align: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 30px;
     padding-top: 5px;
 }
+
 #about_text {
     width: 375px;
     line-height: 1.5;
 }
+
 #bongoCat {
     font-family: 'Monoton', cursive;
     color: rgb(216, 37, 37);
     margin-left: 450px;
 }
+
 .photos {
     margin: 20px;
 }
+
 #fontHolder{
     font-family: 'Nunito Sans', sans-serif;
 }
+
 .table {
     border: solid black;
     border-radius: 5px;
     margin: 100px auto;
     text-align: center;
 }
+
 th {
     font-size: 35;
 }
